@@ -1,0 +1,33 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.1.1",
+  "main": "index.js",
+  "homepage": "https://AnnaGubar.github.io/goit-js-hw-09",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaGubar/goit-js-hw-09.git"
+  },
+  "keywords": [],
+  "author": "Anna Gubar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaGubar/goit-js-hw-09/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.9",
+    "lodash.throttle": "^4.1.1",
+    "notiflix": "^3.2.4"
+  },
+  "description": ""
+}
