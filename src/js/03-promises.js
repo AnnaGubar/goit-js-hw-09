@@ -9,9 +9,9 @@ function promiseHandler(e) {
 
   const formElements = e.currentTarget.elements;
 
-  let delay = +formElements.delay.value;
-  let step = +formElements.step.value;
-  let amount = +formElements.amount.value;
+  let delay = Number(formElements.delay.value);
+  let step = Number(formElements.step.value);
+  let amount = Number(formElements.amount.value);
 
   for (let position = 1; position <= amount; position += 1) {
     delay += step;

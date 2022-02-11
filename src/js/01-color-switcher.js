@@ -40,7 +40,7 @@ function changeBodyColor() {
     }, 1000);
   }
 
-  return;
+  // return;
 }
 
 function disableStartBtn() {
